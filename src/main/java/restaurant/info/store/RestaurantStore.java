@@ -10,7 +10,7 @@ public class RestaurantStore {
 	private static Map<Integer, Restaurant> allRestaurants;
 	static {
 		allRestaurants = new HashMap<>();
-		Restaurant r1 = new Restaurant(101, "Ambrosia","Indian", 10);
+		Restaurant r1 = new Restaurant(101, "Ambrosia","Indian", 20);
 		Restaurant r2 = new Restaurant(102, "Thai Express","Thai", 3);
 		Restaurant r3 = new Restaurant(103, "Mainland China","Chinese", 7);
 		Restaurant r4 = new Restaurant(104, "McDonalds","American", 7);
